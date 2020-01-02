@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-title-block {
+    flex-grow: 1;
+    font-family: 'Charm', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.social-media-block {
+    display: inline-block;
+    margin: .25rem;
+}
+
+.social-media-icon.instagram {
+    height: 32px;
+}
+
+.social-media-icon.facebook {
+    height: 24px;
+    padding: .25rem;
+}
+
+.menu-icon {
+    display: inline-block;
+    height: 1rem;
+    margin: .5rem;
+    width: 1rem;
+}
+
+nav {
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 2rem;
+    transition: width .25s;
+    width: 0%;
+}
+
+nav.open {
+    border: 1px solid #888;
+    width: 80%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+nav a {
+    display: block;
+}

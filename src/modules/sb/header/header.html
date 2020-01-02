@@ -1,0 +1,27 @@
+<template>
+    <div class="header">Steph Bordeau Massage</div>
+    <div class="spacer"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+      <div class="spinner diagonal part-1"></div>
+      <div class="spinner horizontal"></div>
+      <div class="spinner diagonal part-2"></div>
+    </label>
+    <div class="social-media-block">
+        <a href="https://www.facebook.com/Steph-Bordeau-Massage-829996797381678/">
+            <img class="social-media-icon facebook" src="/images/facebook.png">
+        </a>
+        <a href="https://www.instagram.com/stephbordeaumassage/">
+            <img class="social-media-icon instagram" src="/images/instagram_color.png">
+        </a>
+    </div>
+    <div class="sidebarMenu">
+      <ul class="sidebarMenuInner">
+        <li onclick={navigateToServices}><a href="">Services</a></li>
+        <li><a href="#arvigo">Arvigo&reg; Therapy</a></li>
+        <li><a href="#yoga">Yoga</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+      </ul>
+    </div>
+</template>
