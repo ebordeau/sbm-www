@@ -37,6 +37,7 @@
     },
     "repository": "ebordeau/sbm-www",
     "scripts": {
+        "start": "lwc-services serve",
         "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
         "lint": "eslint ./src/**/*.js",
